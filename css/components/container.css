@@ -1,0 +1,79 @@
+/* How it works section */
+
+.how-it-works {
+  padding: 80px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #654B3F;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #765344;
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-card {
+  flex: 1;
+  background-color: #F5E9DF;
+  padding: 32px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card-number {
+  color: #A66F59;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feature-card h3 {
+  color: #654B3F;
+  font-size: 24px;
+  margin: 16px 0;
+}
+
+.feature-card p {
+  color: #765344;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .how-it-works {
+    padding: 60px 24px;
+  }
+
+  .how-it-works h2 {
+    font-size: 28px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cta {
+    padding: 60px 24px;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+  }
+}
+
+.feature-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}

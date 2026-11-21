@@ -1,0 +1,42 @@
+/* Final CTA */
+
+.cta {
+  background-color: #A66F59;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: white;
+  color: #654B3F;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #F5E9DF;
+  transform: translateY(-3px);
+}

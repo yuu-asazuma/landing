@@ -1,0 +1,39 @@
+/* Why MOMENTUM */
+
+.about {
+  background-color: #F5E9DF;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.about-label {
+  color: #A66F59;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: #654B3F;
+  margin: 24px 0;
+}
+
+.about-lead {
+  font-size: 22px;
+  font-weight: bold;
+  color: #A66F59;
+  margin-bottom: 24px;
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #654B3F;
+}
